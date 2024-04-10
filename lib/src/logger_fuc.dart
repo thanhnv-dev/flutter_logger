@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'dart:developer' as developer;
 
-import 'package:flutter_logger/src/ansi_color_enum.dart';
-import 'package:flutter_logger/src/logger_string.dart';
+import 'package:flutter_custom_logger/src/ansi_color_enum.dart';
+import 'package:flutter_custom_logger/src/logger_string.dart';
 
 class MyLogger {
   static String _colorize(String message, AnsiColor color) {
